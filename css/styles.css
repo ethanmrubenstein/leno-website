@@ -482,6 +482,11 @@ img {
   color: #fff;
 }
 
+.footer__about-title,
+.footer__links-title {
+  padding-bottom: 1rem;
+}
+
 .footer__social {
   display: flex;
   justify-content: center;
