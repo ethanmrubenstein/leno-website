@@ -493,7 +493,7 @@ img {
 }
 
 /* Height Queries */
-@media (max-height: 850px) {
+@media (max-width: 768px) and (max-height: 850px) {
   /* Hero */
   .hero {
     padding-top: 9rem;
