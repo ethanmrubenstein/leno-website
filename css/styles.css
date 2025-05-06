@@ -386,7 +386,86 @@ img {
   font-size: 1.2rem;
 }
 
+/* Screenshots */
+.screenshots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 5rem 2rem;
+}
+
+.screenshots__heading {
+  margin-bottom: 2.5rem;
+}
+
+.screenshots__heading-title {
+  font-size: 2.5rem;
+  padding: 2rem 2rem 0;
+  text-transform: uppercase;
+  border-bottom: 2px solid var(--primary);
+}
+
+.screenshots__pictures {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.screenshots__pictures img {
+  width: 100%;
+  max-width: 200px;
+}
+
+/* Download */
+.download {
+  background: #000 url("../images/download-background.jpg") center center/cover
+    no-repeat;
+  height: 100vh;
+}
+
+.download__flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  margin: 0 auto;
+  height: 100%;
+  padding: 0 2rem;
+}
+
+.download__flex-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.download__flex-content-description {
+  width: 500px;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.download__flex-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
 /* Media Queries */
+@media (max-width: 1200px) {
+  /* Screenshots */
+  .screenshots__pictures {
+    justify-content: center;
+    gap: 1rem;
+  }
+}
+
 @media (max-width: 992px) {
   /* Hero */
   .hero {
@@ -456,6 +535,25 @@ img {
   /* Stats */
   .stats__flex {
     justify-content: center;
+  }
+
+  /* Download */
+  .download__flex {
+    justify-content: center;
+    flex-direction: column-reverse;
+  }
+
+  .download__flex-content-description {
+    font-size: 1.2rem;
+    width: 300px;
+  }
+
+  .download__flex-image img {
+    max-width: 300px;
+  }
+
+  .download__flex-buttons {
+    flex-direction: column;
   }
 }
 
@@ -527,6 +625,15 @@ img {
 
   .details__heading {
     font-size: 1.7rem;
+  }
+
+  /* Screenshots */
+  .screenshots__heading-title {
+    font-size: 1.7rem;
+  }
+
+  .screenshots__pictures {
+    flex-direction: column;
   }
 }
 
