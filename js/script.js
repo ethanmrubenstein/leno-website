@@ -18,6 +18,12 @@ document.addEventListener("DOMContentLoaded", () => {
       toggleButtonIcon.classList.add("fa-bars");
     }
   });
+
+  mobileMenu.addEventListener("click", () => {
+    mobileMenu.classList.remove("active");
+    toggleButtonIcon.classList.remove("fa-x");
+    toggleButtonIcon.classList.add("fa-bars");
+  });
 });
 
 window.addEventListener("scroll", () => {
