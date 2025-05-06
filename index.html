@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/png" />
+    <title>Leno App | Health & Productivity</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.3.1/css/glightbox.min.css"
+      integrity="sha512-T+KoG3fbDoSnlgEXFQqwcTC9AdkFIxhBlmoaFqYaIjq2ShhNwNao9AKaLUPMfwiBPL0ScxAtc+UYbHAgvd+sjQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar__container container">
+        <div class="navbar__logo">
+          <img src="./images/logo.svg" alt="Leno Logo" />
+        </div>
+        <div class="navbar__menu">
+          <ul class="navbar__menu-list">
+            <li class="navbar__menu-item">
+              <a class="navbar__menu-link" href="#">Home</a>
+            </li>
+            <li class="navbar__menu-item">
+              <a class="navbar__menu-link" href="#features">Features</a>
+            </li>
+            <li class="navbar__menu-item">
+              <a class="navbar__menu-link" href="#preview">Preview</a>
+            </li>
+            <li class="navbar__menu-item">
+              <a class="navbar__menu-link" href="details">Details</a>
+            </li>
+            <li class="navbar__menu-item">
+              <a class="navbar__menu-link" href="#download">Download</a>
+            </li>
+            <li class="navbar__menu-item">
+              <a class="navbar__menu-link--primary" href="https://facebook.com">
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+            </li>
+            <li class="navbar__menu-item">
+              <a class="navbar__menu-link--primary" href="https://x.com">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- Mobile Menu -->
+        <div class="navbar__mobile-menu">
+          <div class="navbar__mobile-menu-toggle">
+            <i class="fas fa-bars fa-2x"></i>
+          </div>
+          <!-- Mobile Menu Items -->
+          <div class="navbar__mobile-menu-items">
+            <ul class="navbar__mobile-menu-list">
+              <li class="navbar__mobile-menu-item">
+                <a class="navbar__mobile-menu-link" href="#">Home</a>
+              </li>
+              <li class="navbar__mobile-menu-item">
+                <a class="navbar__mobile-menu-link" href="#features"
+                  >Features</a
+                >
+              </li>
+              <li class="navbar__mobile-menu-item">
+                <a class="navbar__mobile-menu-link" href="#preview">Preview</a>
+              </li>
+              <li class="navbar__mobile-menu-item">
+                <a class="navbar__mobile-menu-link" href="details">Details</a>
+              </li>
+              <li class="navbar__mobile-menu-item">
+                <a class="navbar__mobile-menu-link" href="#download"
+                  >Download</a
+                >
+              </li>
+              <li class="navbar__mobile-menu-item">
+                <a
+                  class="navbar__mobile-menu-link--primary"
+                  href="https://facebook.com"
+                >
+                  <i class="fa-brands fa-facebook"></i>
+                </a>
+              </li>
+              <li class="navbar__mobile-menu-item">
+                <a
+                  class="navbar__mobile-menu-link--primary"
+                  href="https://x.com"
+                >
+                  <i class="fa-brands fa-twitter"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero__container container">
+        <div class="hero__content">
+          <h1 class="hero__title">
+            Your
+            <span class="hero__title--primary">productivity</span> assistant
+          </h1>
+          <p class="hero__description">
+            Boost your productivity and improve your health with Leno - the
+            all-in-one app for developers and creators.
+          </p>
+          <div class="hero__buttons">
+            <a href="#download" class="hero__button btn">
+              <i class="fa-brands fa-apple"></i> For Apple
+            </a>
+            <a href="#download" class="hero__button btn">
+              <i class="fa-brands fa-android"></i> For Android
+            </a>
+          </div>
+        </div>
+        <div class="hero__image">
+          <img src="./images/header-smartphones.png" alt="Leno App" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+      <div class="testimonials__container container">
+        <div class="testimonials__card">
+          <div class="testimonials__image">
+            <img src="./images/testimonial-1.jpg" alt="Testimonial 1" />
+          </div>
+          <div class="testimonials__card-content">
+            <p class="testimonials__card-text">
+              "Leno has truly transformed how I manage my time and health.
+              Highly recommended!"
+            </p>
+            <h3 class="testimonials__card-title">Samantha Samson</h3>
+          </div>
+        </div>
+
+        <div class="testimonials__card">
+          <div class="testimonials__image">
+            <img src="./images/testimonial-2.jpg" alt="Testimonial 2" />
+          </div>
+          <div class="testimonials__card--content">
+            <p class="testimonials__card-text">
+              "As a developer, I rely on Leno every day to keep me focused and
+              energized. It's a game-changer!"
+            </p>
+            <h3 class="testimonials__card-title">Mike Johnson</h3>
+          </div>
+        </div>
+
+        <div class="testimonials__card">
+          <div class="testimonials__image">
+            <img src="./images/testimonial-3.jpg" alt="Testimonial 3" />
+          </div>
+          <div class="testimonials__card--content">
+            <p class="testimonials__card-text">
+              "With Leno, I've been able to achieve my goals faster and
+              healthier than ever before. It's a must-have app!"
+            </p>
+            <h3 class="testimonials__card-title">Laney Smith</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section id="features" class="features">
+      <div class="features__container container">
+        <div class="features__content">
+          <h2 class="features__title">Key Takeaways</h2>
+          <p class="features__description">
+            Discover the powerful features that make Leno the ultimate
+            productivity and health companion:
+          </p>
+          <div class="features__grid">
+            <!-- Grid Column One -->
+            <div class="features__grid-column features__grid-column-left">
+              <!-- Grid Item One -->
+              <div class="features__grid-item">
+                <div class="features__grid-item-text">
+                  <h4 class="features__grid-item-text-title">Real-Time Data</h4>
+                  <p class="features__grid-item-text-description">
+                    Access real-time data instantly, ensuring you're always
+                    up-to-date with the latest information.
+                  </p>
+                </div>
+                <div class="features__grid-item-icon">
+                  <i class="fas fa-rocket fa-4x"></i>
+                </div>
+              </div>
+              <!-- Grid Item 2 -->
+              <div class="features__grid-item">
+                <div class="features__grid-item-text">
+                  <h4 class="features__grid-item-text-title">Visual Editor</h4>
+                  <p class="features__grid-item-text-description">
+                    Customize your workspace with our intuitive visual editor.
+                  </p>
+                </div>
+                <div class="features__grid-item-icon">
+                  <i class="fas fa-code fa-4x"></i>
+                </div>
+              </div>
+              <!-- Grid Item 3 -->
+              <div class="features__grid-item">
+                <div class="features__grid-item-text">
+                  <h4 class="features__grid-item-text-title">
+                    Refined Options
+                  </h4>
+                  <p class="features__grid-item-text-description">
+                    Access a wide range of refined options to tailor Leno to
+                    your unique needs.
+                  </p>
+                </div>
+                <div class="features__grid-item-icon">
+                  <i class="fas fa-gem fa-4x"></i>
+                </div>
+              </div>
+            </div>
+            <!-- Grid Column 2 -->
+            <div class="features__grid-column features__grid-column-center">
+              <img src="./images/features-smartphone-1.png" alt="" />
+            </div>
+
+            <!-- Grid Column 3 -->
+            <div class="features__grid-column features__grid-column-right">
+              <!-- Grid Item 1 -->
+              <div class="features__grid-item">
+                <div class="features__grid-item-text">
+                  <h4 class="features__grid-item-text-title">Calendar Input</h4>
+                  <p class="features__grid-item-text-description">
+                    Seamlessly integrate your calendar to stay organized and on
+                    track.
+                  </p>
+                </div>
+                <div class="features__grid-item-icon">
+                  <i class="fas fa-calendar fa-4x"></i>
+                </div>
+              </div>
+              <!-- Grid Item 2 -->
+              <div class="features__grid-item">
+                <div class="features__grid-item-text">
+                  <h4 class="features__grid-item-text-title">Easy Reading</h4>
+                  <p class="features__grid-item-text-description">
+                    Enjoy distraction-free reading with Leno's clean and
+                    intuitive interface.
+                  </p>
+                </div>
+                <div class="features__grid-item-icon">
+                  <i class="fas fa-book fa-4x"></i>
+                </div>
+              </div>
+              <!-- Grid Item 3 -->
+              <div class="features__grid-item">
+                <div class="features__grid-item-text">
+                  <h4 class="features__grid-item-text-title">
+                    Good Foundation
+                  </h4>
+                  <p class="features__grid-item-text-description">
+                    Leno is built on a solid foundation of user feedback and
+                    cutting-edge technology.
+                  </p>
+                </div>
+                <div class="features__grid-item-icon">
+                  <i class="fas fa-cube fa-4x"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Preview -->
+    <section id="preview" class="preview">
+      <div class="preview__container container">
+        <div class="preview__content">
+          <h2 class="preview__title">Preview</h2>
+          <p class="preview__description">
+            Take a sneak peek at Leno's sleek and intuitive interface.
+          </p>
+          <div class="preview__image-container">
+            <div class="preview__video-wrapper">
+              <img src="./images/video-frame.jpg" alt="Preview Video" />
+              <a
+                href="https://vimeo.com/115041822"
+                class="preview__video-button glightbox2"
+              >
+                <i
+                  class="preview__video-play-button fa-sharp fa-solid fa-play fa-6x"
+                ></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.3.1/js/glightbox.min.js"
+      integrity="sha512-XL54SjceXZFzblziNnaFFaXggzqCuZrFS4loWPpvPJ6Kg0kc2HyL89+cPeH0GMq0sKL2SegzUmA8Lx9a0st2ow=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
