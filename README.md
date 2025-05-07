@@ -50,7 +50,7 @@ All dependencies are included via CDN, so you don’t need to install anything m
 
 ## ✏️ Customization Tips
 
-- Update colors and spacing in `css/style.css`.
+- Update colors and spacing in `css/styles.css`.
 - Modify text content and layout in `index.html`.
 - Customize interactive behavior in `js/script.js`.
 
